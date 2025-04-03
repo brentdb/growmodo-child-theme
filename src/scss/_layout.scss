@@ -1,0 +1,21 @@
+section{
+    width: 100%;
+    position: relative;    
+}
+
+.container{
+    width: 100%;
+    @include md-max{
+        width: 100%;
+    }
+
+    @include lg-max{
+        width: 100%;
+    }
+
+    @include xl{
+        width: 1920px;
+        padding-left: 162px;
+        padding-right: 162px;
+    }
+}

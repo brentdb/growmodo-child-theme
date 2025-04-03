@@ -1,0 +1,37 @@
+.contact-btn{
+    width: 160px;
+    font-family: "Urbanist", sans-serif;
+    color: $white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 24px;
+    border: solid 1px $grey-15;
+    border: solid 1px $grey-15;
+    background: $grey-08;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+.btn_close_notice{
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin:0;
+    border: none;
+    text-align: center;
+    line-height: 32px;
+    top: 15px;
+    right: 25px;
+    cursor: pointer;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background: rgba(255,255,255,0.10);
+
+
+    i{
+        color: $white;
+        font-size: 12px;
+    }
+}
